@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap');
+:root {
+  /* Overlay layers */
+  --z-overlay: 400;
+  --z-spotlight: 1000; /* Tutorial spotlights/guided help */
+  /* System layers */
+  --z-critical: 2000; /* Critical system notifications */
+  /* spacing */
+  --spacing-1: 0.25rem;
+  --spacing-2: 0.5rem;
+  --spacing-3: 0.75rem;
+  --spacing-4: 1rem;
+  --spacing-6: 1.5rem;
+  --spacing-8: 2rem;
+  --spacing-12: 3rem;
+  --spacing-16: 4rem;
+  --spacing-20: 5rem;
+}
+:root {
+ --background:#0b0b0b; --foreground:#ede7dd; --surface:#171615; --surface-foreground:#ede7dd; --sidebar:#111110; --sidebar-foreground:#ede7dd; --card:#171615; --card-foreground:#ede7dd; --popup:#20201e; --popup-foreground:#ede7dd; --primary:#ede7dd; --primary-foreground:#0b0b0b; --secondary:#292725; --secondary-foreground:#ede7dd; --accent:#ac8062; --accent-foreground:#0b0b0b; --muted:#242321; --muted-foreground:#b5aea4; --success:#7fa68d; --success-foreground:#0b0b0b; --error:#f5a9a0; --error-foreground:#0b0b0b; --warning:#e4b886; --warning-foreground:#0b0b0b; --info:#a3b9cc; --info-foreground:#0b0b0b; --info-hover:#bccbd8; --info-active:#8ca7c0; --border:#494039;
+ --font-family-base:'DM Sans',sans-serif; --font-family-display:'Instrument Serif',Georgia,serif; --font-family-monospace:monospace; --font-family-cursive:cursive;
+ --shadow:0 3px 20px #0004; --shadow-md:0 8px 36px #0008; --shadow-lg:0 20px 60px #000b; --shadow-focus:0 0 0 3px #ac806266; --radius-sm:2px; --radius:4px; --radius-md:8px; --radius-lg:12px; --radius-full:9999px;
+ --animation-duration-fast:160ms; --animation-duration-normal:300ms; --animation-duration-slow:650ms;
+ --chart-color-1:#ede7dd; --chart-color-2:#ac8062; --chart-color-3:#8c837a; --chart-color-4:#cdb6a1; --chart-color-5:#706056;
+}
+.dark {}
