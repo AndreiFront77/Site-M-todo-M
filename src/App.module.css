@@ -4,3 +4,9 @@
 .visualBand{background:repeating-linear-gradient(114deg,transparent 0 42px,rgba(216,178,133,.065) 43px 45px,transparent 46px 112px),radial-gradient(ellipse at 82% 15%,#624b36,#1b1713 48%,#0d0d0c 83%)}
 .statement{background:radial-gradient(ellipse at 80% 50%,#514132 0%,#1c1814 44%,#0c0b0a 85%)}
 .visualBand::before,.statement::before{content:"";position:absolute;inset:12% 8% 12% auto;width:min(37%,360px);border:1px solid rgba(213,183,156,.2);background:linear-gradient(125deg,rgba(218,185,145,.08),transparent 65%);transform:skewY(-7deg);pointer-events:none}
+
+/* Identidade Método M — símbolo vetorial fiel à referência fornecida */
+.brandSymbol,.brandSymbolFooter{display:block;flex:none;object-fit:contain;height:auto;max-width:100%}
+.brandSymbol{width:46px}
+.brandSymbolFooter{width:66px}
+@media(max-width:520px){.brandSymbol{width:38px}.brandSymbolFooter{width:54px}}
