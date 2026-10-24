@@ -10,3 +10,31 @@
 .brandSymbol{width:46px}
 .brandSymbolFooter{width:66px}
 @media(max-width:520px){.brandSymbol{width:38px}.brandSymbolFooter{width:54px}}
+
+/* Ambientes premium Método M — três composições de identidade.
+   Arquivos WebP sob /public/images; os gradientes permanecem como fallback. */
+.hero{
+  background-image:linear-gradient(90deg,rgba(7,7,7,.98) 0%,rgba(9,9,9,.91) 38%,rgba(10,10,10,.58) 74%,rgba(9,9,9,.42) 100%),url('/images/metodo-m-hero.webp');
+  background-position:center,right center;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.visualBand{
+  background-image:linear-gradient(90deg,rgba(9,9,9,.88) 0%,rgba(9,9,9,.67) 48%,rgba(9,9,9,.26) 100%),url('/images/metodo-m-projetos.webp');
+  background-position:center,center;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.statement{
+  background-image:linear-gradient(90deg,rgba(7,7,7,.66),rgba(7,7,7,.41)),url('/images/metodo-m-conceito.webp');
+  background-position:center,center;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.hero::before,.visualBand::before,.statement::before{pointer-events:none}
+.heroContent,.visualBand>div,.statement>div{position:relative;z-index:2}
+@media(max-width:700px){
+  .hero{background-position:center,67% center;background-image:linear-gradient(90deg,rgba(7,7,7,.93),rgba(7,7,7,.76)),url('/images/metodo-m-hero.webp')}
+  .visualBand{background-image:linear-gradient(90deg,rgba(7,7,7,.83),rgba(7,7,7,.57)),url('/images/metodo-m-projetos.webp')}
+  .statement{background-image:linear-gradient(90deg,rgba(7,7,7,.79),rgba(7,7,7,.52)),url('/images/metodo-m-conceito.webp')}
+}
