@@ -15,7 +15,7 @@ npm run build
 Importe este repositório na Vercel (framework Vite). Funciona sem variáveis de ambiente:
 
 - **WhatsApp:** botão flutuante e botão na seção de contato abrem conversa com (51) 99157-0759 e mensagem pré-preenchida. Para trocar, defina `VITE_WHATSAPP_NUMBER` (somente dígitos, com 55).
-- **E-mail:** o formulário envia para `somosmetodom@gmail.com`. Sem `RESEND_API_KEY`, usa o FormSubmit; no **primeiro envio** o Gmail recebe um e-mail de ativação que precisa ser confirmado. Para usar Resend, configure `RESEND_API_KEY` e `CONTACT_FROM_EMAIL` (domínio validado).
+- **E-mail:** o formulário usa o FormSubmit e envia para `somosmetodom@gmail.com`. No primeiro envio, o FormSubmit envia uma mensagem de ativação para esse endereço; confirme-a para liberar os próximos envios. Opcionalmente, defina `CONTACT_EMAIL` na Vercel para trocar o destinatário.
 
 ## Imagens e identidade
 
