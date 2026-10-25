@@ -1,0 +1,2 @@
+import React from 'react';
+export const Textarea=React.forwardRef<HTMLTextAreaElement,React.TextareaHTMLAttributes<HTMLTextAreaElement>>((props,ref)=><textarea {...props} ref={ref}/>);
